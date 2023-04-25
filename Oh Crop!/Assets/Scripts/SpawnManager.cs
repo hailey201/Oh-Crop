@@ -5,11 +5,13 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     public GameObject cropPrefab;
+    public GameObject coinPrefab;
     public float spawnRange = 4;
     // Start is called before the first frame update
     void Start()
     {
         Instantiate(cropPrefab, GenerateSpawnPosition(), cropPrefab.transform.rotation);
+        Instantiate(coinPrefab, GenerateSpawnPosition(), coinPrefab.transform.rotation);
     }
 
     // Update is called once per frame
