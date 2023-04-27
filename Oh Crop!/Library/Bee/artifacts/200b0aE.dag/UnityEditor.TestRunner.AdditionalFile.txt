@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!
+=======
+/Users/VIWU1/Documents/GitHub/Oh-Crop/Oh Crop!
+>>>>>>> Stashed changes
