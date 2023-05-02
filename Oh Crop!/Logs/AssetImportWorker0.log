@@ -7,6 +7,364 @@ Darwin version:          21.5.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        8192 MB
-Assertion failed on expression: 'IsFileCreated(kWorkerLicensePath)'
-Assertion failed on expression: 'ok'
 Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/VIWU1/Documents/GitHub/Oh-Crop/Oh Crop!
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52295
+Successfully changed project path to: /Users/VIWU1/Documents/GitHub/Oh-Crop/Oh Crop!
+/Users/VIWU1/Documents/GitHub/Oh-Crop/Oh Crop!
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 66.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/VIWU1/Documents/GitHub/Oh-Crop/Oh Crop!/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56329
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001507 seconds.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 69.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.440 seconds
+Domain Reload Profiling:
+	ReloadAssembly (440ms)
+		BeginReloadAssembly (49ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (319ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (85ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (184ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (55ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004832 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/VIWU1/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/VIWU1/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.791 seconds
+Domain Reload Profiling:
+	ReloadAssembly (792ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (132ms)
+		EndReloadAssembly (536ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (189ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (227ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (94.5 KB). Loaded Objects now: 3841.
+Memory consumption went from 231.8 MB to 231.7 MB.
+Total: 2.293500 ms (FindLiveObjects: 0.119583 ms CreateObjectMapping: 0.041625 ms MarkObjects: 2.061791 ms  DeleteObjects: 0.070042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17420.608030 seconds.
+  path: Assets/Fence 4 Pack FREE/Prefabs/Fence.prefab
+  artifactKey: Guid(57a89c287e45b274f8984eabb431db4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fence 4 Pack FREE/Prefabs/Fence.prefab using Guid(57a89c287e45b274f8984eabb431db4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68aba36a159576f6231f31539809aec5') in 0.523240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Easy Primitive People/Prefab/Pilgrim.prefab
+  artifactKey: Guid(8a40fb370ea9e3c4cb0b6250bbc0d124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Primitive People/Prefab/Pilgrim.prefab using Guid(8a40fb370ea9e3c4cb0b6250bbc0d124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c0f0c2c7f3c026f5ae91adf6a5defa') in 0.015471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Easy Primitive People/Prefab/Angel.prefab
+  artifactKey: Guid(7f1f123d861e0934ba6d5ba760c21c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Primitive People/Prefab/Angel.prefab using Guid(7f1f123d861e0934ba6d5ba760c21c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7795540ede838849faf0a7fbd12a48c') in 0.013709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Easy Primitive People/Prefab/Ghost.prefab
+  artifactKey: Guid(504712390eb34b946873d7f1bb40b62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Primitive People/Prefab/Ghost.prefab using Guid(504712390eb34b946873d7f1bb40b62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de254499bd9842fc7595b429c0eb073') in 0.006532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Easy Primitive People/Prefab/Cloud2.prefab
+  artifactKey: Guid(cefd7ff7c57d0884f81f476039c5b9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Primitive People/Prefab/Cloud2.prefab using Guid(cefd7ff7c57d0884f81f476039c5b9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe32e80b5000dbba9576fc1c064229e') in 0.005107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/RootVegetables/Prefabs/Daikon.prefab
+  artifactKey: Guid(0158a6863370c3d469ddee8e331810db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RootVegetables/Prefabs/Daikon.prefab using Guid(0158a6863370c3d469ddee8e331810db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f63d625e42528613351b3f8cb394a37') in 0.030881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Easy Primitive People/Prefab/Nurse.prefab
+  artifactKey: Guid(51e437be22296b340954bf6591a60065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Primitive People/Prefab/Nurse.prefab using Guid(51e437be22296b340954bf6591a60065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd971122d467b4d5b6da90a21804662db') in 0.006142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Easy Primitive People/Prefab/Doctor.prefab
+  artifactKey: Guid(b5a85490c717c88408f046479f4e1b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Primitive People/Prefab/Doctor.prefab using Guid(b5a85490c717c88408f046479f4e1b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2804bc2d8a4a81d52a649c34124252d') in 0.010674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Easy Primitive People/Prefab/Pig.prefab
+  artifactKey: Guid(cc3c57fe9cc9c9e44bc43f7893d1708e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Primitive People/Prefab/Pig.prefab using Guid(cc3c57fe9cc9c9e44bc43f7893d1708e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b09d2ee280105d633b81ce970842e2') in 0.006715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Gold Coins/Prefab/GoldCoins.prefab
+  artifactKey: Guid(01348926c7cbb3347a006c37204131c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Gold Coins/Prefab/GoldCoins.prefab using Guid(01348926c7cbb3347a006c37204131c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3812cacf25ce0fb2e237d9cb06d2a7') in 0.234295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Easy Primitive People/Prefab/Cloud3.prefab
+  artifactKey: Guid(1d220d7d578e51446ae85d810529ea5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Primitive People/Prefab/Cloud3.prefab using Guid(1d220d7d578e51446ae85d810529ea5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c26a7d3bbd70439b1bc11c02eb84320') in 0.004933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Easy Primitive People/Materials/CricketFielder.prefab
+  artifactKey: Guid(580cb0d5de7fae74cad3ee240378c8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Primitive People/Materials/CricketFielder.prefab using Guid(580cb0d5de7fae74cad3ee240378c8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a8bc72e9a35e916cf3347d94371861') in 0.012645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Easy Primitive People/Prefab/Knight.prefab
+  artifactKey: Guid(e6f91243a53d8cd4fab23ed891f0cc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Primitive People/Prefab/Knight.prefab using Guid(e6f91243a53d8cd4fab23ed891f0cc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12721558fa393915caec3dc708b90aa') in 0.006372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Easy Primitive People/Prefab/Goal.prefab
+  artifactKey: Guid(86fd8e596d1c632409cd5acbf0796045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Primitive People/Prefab/Goal.prefab using Guid(86fd8e596d1c632409cd5acbf0796045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889c2894cae2a83aa925356c49cab4c2') in 0.006947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Easy Primitive People/Prefab/CricketBatsman.prefab
+  artifactKey: Guid(467914d9f79be7d4298ad29dd883a986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Primitive People/Prefab/CricketBatsman.prefab using Guid(467914d9f79be7d4298ad29dd883a986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e8cd969f11f22b5571d381f44c0951') in 0.006812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Cold, Silver, Copper Coins.prefab
+  artifactKey: Guid(d65c5544ceb166e42ba2c0035400520e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Cold, Silver, Copper Coins.prefab using Guid(d65c5544ceb166e42ba2c0035400520e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1cc48c9a8da202373ed7b54fb5bd3bd') in 0.018919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Fence 4 Pack FREE/Prefabs/Fence3.prefab
+  artifactKey: Guid(9280f9160a5bf9b439d31478ea57dfd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fence 4 Pack FREE/Prefabs/Fence3.prefab using Guid(9280f9160a5bf9b439d31478ea57dfd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf7ff385479123708c4a86d9490c3e5') in 0.005988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/RootVegetables/Prefabs/Parsnip.prefab
+  artifactKey: Guid(08c182a6483a597499161973f90fe2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RootVegetables/Prefabs/Parsnip.prefab using Guid(08c182a6483a597499161973f90fe2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6a3e9cd2ce0bfd3708e6d77e8a62de') in 0.005150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Easy Primitive People/Prefab/Main Camera.prefab
+  artifactKey: Guid(e6efa26bdc07cf945952ac3f77fc7eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Primitive People/Prefab/Main Camera.prefab using Guid(e6efa26bdc07cf945952ac3f77fc7eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62f852869af4c67721c24f2f0f77bce') in 0.002244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.979069 seconds.
+  path: Assets/Easy Primitive People/Prefab/Robber.prefab
+  artifactKey: Guid(b79d0b13355dc8f44b7956db61a82656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Primitive People/Prefab/Robber.prefab using Guid(b79d0b13355dc8f44b7956db61a82656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5c6406560820dcd25736bc18bf2729') in 0.012585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coins/Prefab/SilverCoins.prefab
+  artifactKey: Guid(c7215f01068703b4a9dd5eb3305fd261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coins/Prefab/SilverCoins.prefab using Guid(c7215f01068703b4a9dd5eb3305fd261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6b79f8c9e1f039d2542ec7db3e16ab') in 0.009647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Silver Coin - Single/Prefab/SilverCoin.prefab
+  artifactKey: Guid(40622103d618b1e43b3c9ea67ff0a1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Silver Coin - Single/Prefab/SilverCoin.prefab using Guid(40622103d618b1e43b3c9ea67ff0a1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5984e5333ea6aaae2e1a0e2aa0b07cec') in 0.008029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coin - Single/Prefab/SilverCoin.prefab
+  artifactKey: Guid(6cf803f17924190419a094e8c931bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coin - Single/Prefab/SilverCoin.prefab using Guid(6cf803f17924190419a094e8c931bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfbc34f8b3e6889973824da80b3e69d') in 0.006869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.558402 seconds.
+  path: Assets/Easy Primitive People/Prefab/SoccerPlayerRed.prefab
+  artifactKey: Guid(16f2a6a6321bb894c984093ed7270f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Primitive People/Prefab/SoccerPlayerRed.prefab using Guid(16f2a6a6321bb894c984093ed7270f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8c98248bf3de658ead4dc89e571270') in 0.012819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Easy Primitive People/Villager (1).prefab
+  artifactKey: Guid(4b46ddc6332dc4b34b80b94e25a7eee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Primitive People/Villager (1).prefab using Guid(4b46ddc6332dc4b34b80b94e25a7eee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b5ffe22b2efef9f48f3256f327aa9d') in 0.010146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Tree9/Tree9_3.prefab
+  artifactKey: Guid(8b2d47fdc2e25ac4f9721480a68bbefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9/Tree9_3.prefab using Guid(8b2d47fdc2e25ac4f9721480a68bbefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3199b49a0735cac60cf9fa28c52cad6c') in 0.139849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.338759 seconds.
+  path: Assets/Easy Primitive People/Prefab/Wicket.prefab
+  artifactKey: Guid(20452e1a22d5bdc4894c5517394f36c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Primitive People/Prefab/Wicket.prefab using Guid(20452e1a22d5bdc4894c5517394f36c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb39b290d1fd27d90f74cbb275b3d3cb') in 0.010057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Easy Primitive People/Prefab/Zombie.prefab
+  artifactKey: Guid(dc7e45f5f8f700449b1e5ee0e7fda889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easy Primitive People/Prefab/Zombie.prefab using Guid(dc7e45f5f8f700449b1e5ee0e7fda889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5608e3de119ede66ada60eccf8e748ea') in 0.009273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 202.797273 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins
+  artifactKey: Guid(789bf0083d57c49f1b54537fbed84590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins using Guid(789bf0083d57c49f1b54537fbed84590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0921ca9ee8863eae569d3f955ae1d3ad') in 0.001246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.265667 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene
+  artifactKey: Guid(89900e6e369a10243993f1f441dd5319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene using Guid(89900e6e369a10243993f1f441dd5319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88cd73ec92a3fb130a097fa80ece87ab') in 0.001219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.391033 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene/Devtoid-Gold,Silver,CopperCoins.unity
+  artifactKey: Guid(aca5a5cc8167a8f4aaa12e4c8a537c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene/Devtoid-Gold,Silver,CopperCoins.unity using Guid(aca5a5cc8167a8f4aaa12e4c8a537c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32f9c00d8055823f74a5b0683cd6408') in 0.001623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.924900 seconds.
+  path: Assets/Fence 4 Pack FREE/SkyBox Fence 4 Pack.mat
+  artifactKey: Guid(dcc1e70fe4221114dbd038849252cdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fence 4 Pack FREE/SkyBox Fence 4 Pack.mat using Guid(dcc1e70fe4221114dbd038849252cdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a266b5eebad8c8a172148584b5dfc4d') in 0.226499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.461274 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b5e71ea4408b7e9434bff3dddf6386') in 0.000860 seconds 

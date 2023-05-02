@@ -2,6 +2,7 @@ Unity Editor version:    2021.3.9f1 (ad3870b89536)
 Branch:                  2021.3/staging
 Build type:              Release
 Batch mode:              YES
+<<<<<<< Updated upstream
 macOS version:           Version 12.2.1 (Build 21D62)
 Darwin version:          21.3.0
 Architecture:            arm64
@@ -1705,3 +1706,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+=======
+macOS version:           Version 12.4 (Build 21F79)
+Darwin version:          21.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Assertion failed on expression: 'IsFileCreated(kWorkerLicensePath)'
+Assertion failed on expression: 'ok'
+Using pre-set license
+>>>>>>> Stashed changes
