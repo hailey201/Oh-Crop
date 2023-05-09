@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!
+/Users/DATANG/Documents/GitHub/Oh-Crop/Oh Crop!
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58519
-Successfully changed project path to: /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!
-/Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!
+51196
+Successfully changed project path to: /Users/DATANG/Documents/GitHub/Oh-Crop/Oh Crop!
+Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/DATANG/Documents/GitHub/Oh-Crop/Oh Crop!
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh C
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 116.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 70.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Assets
+[Subsystems] Discovering subsystems at path /Users/DATANG/Documents/GitHub/Oh-Crop/Oh Crop!/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
  preferred device: Apple M1 (high power)
 Metal devices available: 1
@@ -69,180 +69,96 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56251
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56049
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002034 seconds.
+Registered in 0.002554 seconds.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 69.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 69.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.422 seconds
+- Completed reload, in  0.457 seconds
 Domain Reload Profiling:
-	ReloadAssembly (423ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (457ms)
+		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (293ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (307ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (72ms)
+			SetupTypeCache (80ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (176ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (179ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (31ms)
+				InitializePlatformSupportModulesInManaged (29ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (69ms)
+				RefreshPlugins (70ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (50ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				ProcessInitializeOnLoadAttributes (52ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005886 seconds.
+Registered in 0.005156 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0x151973a00 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1412c8000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1577ce400 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x141438000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1577d4e00 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1412c8000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1577d4e00 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x141490000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1388f8000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x138968000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x138980000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x141500000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x141490000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x141530000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1577aa600 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x151973a00 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1518f3600 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x138460000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1389d8000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1384e8000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x141490000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x141548000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x141598000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1577d4e00 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1577d9a00 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.Services.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x141640000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1577d6a00 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x141598000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1577dc000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.Services.Core.Configuration.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1577e0a00 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x151973a00 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1518f3600 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1518f3600 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x15187ba00 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x151973a00 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1577dc000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x141680000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x141670000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1577e0800 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x141670000 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1577e7200 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x1577eec00 doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/ScriptAssemblies/Unity.Services.Core.Device.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/MAZHI/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/DATANG/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/DATANG/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.771 seconds
+- Completed reload, in  0.783 seconds
 Domain Reload Profiling:
-	ReloadAssembly (771ms)
-		BeginReloadAssembly (171ms)
+	ReloadAssembly (783ms)
+		BeginReloadAssembly (172ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (126ms)
-		EndReloadAssembly (530ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (127ms)
+		EndReloadAssembly (535ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (171ms)
+			SetupTypeCache (191ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (229ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (220ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (147ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (72.0 KB). Loaded Objects now: 3847.
-Memory consumption went from 229.1 MB to 229.0 MB.
-Total: 2.296792 ms (FindLiveObjects: 0.113958 ms CreateObjectMapping: 0.043250 ms MarkObjects: 2.062125 ms  DeleteObjects: 0.076875 ms)
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (94.5 KB). Loaded Objects now: 3860.
+Memory consumption went from 235.0 MB to 234.9 MB.
+Total: 2.476125 ms (FindLiveObjects: 0.120500 ms CreateObjectMapping: 0.042667 ms MarkObjects: 2.235833 ms  DeleteObjects: 0.076500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -256,8 +172,477 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 94272.260966 seconds.
-  path: 
+  Time since last request: 33191.537208 seconds.
+  path: Assets/Fence 4 Pack FREE/Demo_Fence2Pack
+  artifactKey: Guid(f51959e8931816a44827a5e182fbef94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fence 4 Pack FREE/Demo_Fence2Pack using Guid(f51959e8931816a44827a5e182fbef94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f977582f85b0e2bd2338297bb218e5b') in 0.007397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.661145 seconds.
+  path: Assets/Fence 4 Pack FREE/Demo_Fence4Pack.unity
+  artifactKey: Guid(1f7f28729612a1e4bb60c41ec6953f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fence 4 Pack FREE/Demo_Fence4Pack.unity using Guid(1f7f28729612a1e4bb60c41ec6953f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb6c82433018f41cb1ea1cc9e8004b2') in 0.000997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.576772 seconds.
+  path: Assets/Fence 4 Pack FREE/Material
+  artifactKey: Guid(c0483b92d8281184ba281a9e14427aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fence 4 Pack FREE/Material using Guid(c0483b92d8281184ba281a9e14427aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f62606dbafc62c416d3132d318bc342') in 0.001277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.901031 seconds.
+  path: Assets/Fence 4 Pack FREE/Prefabs/Fence.asset
+  artifactKey: Guid(6ee4d4450faa2ae4190de7a3739d0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fence 4 Pack FREE/Prefabs/Fence.asset using Guid(6ee4d4450faa2ae4190de7a3739d0931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bd1e19a2e877628954cd5d70365469') in 0.445080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034975 seconds.
+  path: Assets/Fence 4 Pack FREE/Prefabs/Fence.prefab
+  artifactKey: Guid(57a89c287e45b274f8984eabb431db4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fence 4 Pack FREE/Prefabs/Fence.prefab using Guid(57a89c287e45b274f8984eabb431db4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68aba36a159576f6231f31539809aec5') in 0.054292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.428990 seconds.
+  path: Assets/Fence 4 Pack FREE/Prefabs/Fence2.asset
+  artifactKey: Guid(984f67104a161a9499b6d855b92aaabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fence 4 Pack FREE/Prefabs/Fence2.asset using Guid(984f67104a161a9499b6d855b92aaabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1c00b143f5ea95291c8731c3f57334') in 0.008393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 250.241996 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f67ab3dc26da4e8ae25e3f4e491d00') in 0.750117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074947 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95b4c2a9b67a1b3b08a79aab403f964') in 0.001255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.447337 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets
+  artifactKey: Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets using Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe342ddaeddc525a77e6f203ceeefc6a') in 0.000970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.576416 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials
+  artifactKey: Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials using Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a5343dd66316b9eb35bafbffda078a') in 0.001299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.834598 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
   artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000017 seconds  code(3) message(Unknown asset with GUID '2e498d1c8094910479dc3e1b768306a4')
-  ERROR: Unknown asset with GUID '2e498d1c8094910479dc3e1b768306a4'
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1399baaafacc37aa733a1c2ab0fc965d') in 0.056173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.262512 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d39d3b365ae06f4a5d582e5614ba55e') in 0.026698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.029748 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9be6ffbc082c49a3780737cccd8beab') in 0.300505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c87e1131a88e6eaf9101b85a2f3ae03') in 0.023310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 183.150948 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene
+  artifactKey: Guid(89900e6e369a10243993f1f441dd5319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene using Guid(89900e6e369a10243993f1f441dd5319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88cd73ec92a3fb130a097fa80ece87ab') in 0.001542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.582080 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene/DriftType.ttf
+  artifactKey: Guid(27eaf5c0c13b24a9a937782ef43efb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene/DriftType.ttf using Guid(27eaf5c0c13b24a9a937782ef43efb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66353896785534e170add012c21806a') in 0.691086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.018925 seconds.
+  path: Assets/RootVegetables/Scenes
+  artifactKey: Guid(754539e914844ff4ea4a4ff791d0c7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RootVegetables/Scenes using Guid(754539e914844ff4ea4a4ff791d0c7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefbaea604bddeed8fca00a305e739a2') in 0.001221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.314999 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5527babf88dcb6ff38db90a2359374') in 0.016341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.839774 seconds.
+  path: Assets/TextMesh Pro/Fonts/DriftType.ttf
+  artifactKey: Guid(eed68a849911e49d49854a25eb3a211c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/DriftType.ttf using Guid(eed68a849911e49d49854a25eb3a211c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5747e5d0b96bb0d41746214148ae1d8f') in 0.007294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.627066 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/DriftType.ttf
+  artifactKey: Guid(2bb9927747c4c43178200a87df0ea467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/DriftType.ttf using Guid(2bb9927747c4c43178200a87df0ea467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c9b5b89e281d72c1bce7be0e95561f') in 0.009724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.598015 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ecb2fa8dd83b4749a13d0b14c984c2') in 0.012551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.257158 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3950451084668360d05945240589cf11') in 0.006857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.492653 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9abac68ac0bf99d52af66a4f38b8f7') in 0.431074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.797947 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9166bc1abaeb281fc6783cc3fe76c458') in 0.039861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b707fb793fd60a56581099cf81a197e') in 0.001812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7506c69260bf7c1cdf33a8f62db534a1') in 0.001231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.459454 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72200549b97ff12ff44a36c3fabf96c') in 0.003684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 145.057078 seconds.
+  path: Assets/TextMesh Pro/Fonts/DriftType SDF.asset
+  artifactKey: Guid(ea5c6839ead524af18641739d1000dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/DriftType SDF.asset using Guid(ea5c6839ead524af18641739d1000dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ae39a9c763ac14f612224c5e924717') in 0.028648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.383143 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4646e7f2912a4d4c007ec46cefeab886') in 0.017458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 353.497045 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene/Pinewood (1).ttf
+  artifactKey: Guid(407b071fc3c7d4e36a86b69c7742494b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene/Pinewood (1).ttf using Guid(407b071fc3c7d4e36a86b69c7742494b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41772a461ac20d7d5a2049712fb3d8b3') in 0.031992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.793261 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene/Pinewood (1) SDF.asset
+  artifactKey: Guid(3bc56e8f93a8f49bf8b6549b5e35c2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene/Pinewood (1) SDF.asset using Guid(3bc56e8f93a8f49bf8b6549b5e35c2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ffcc00e7e7f3d485d2eda778c9f432') in 0.021741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.712009 seconds.
+  path: Assets/TextMesh Pro/Fonts/DriftType SDF.asset
+  artifactKey: Guid(ea5c6839ead524af18641739d1000dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/DriftType SDF.asset using Guid(ea5c6839ead524af18641739d1000dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f44191ca239542261dda011fd9c148f') in 0.013736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 219.690760 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene/Homemade_Apple.zip
+  artifactKey: Guid(9b29d8bd227dc4737a052d34a6a03f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene/Homemade_Apple.zip using Guid(9b29d8bd227dc4737a052d34a6a03f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453178bd3259503c5bfc78a2cc61582f') in 0.039261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.963312 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene/HomemadeApple-Regular.ttf
+  artifactKey: Guid(9dd6a16e1ae214792af39cb3115f2020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene/HomemadeApple-Regular.ttf using Guid(9dd6a16e1ae214792af39cb3115f2020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25cc639ce8002a0bb2d508cec0100f3') in 0.041947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.967734 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene/HomemadeApple-Regular SDF.asset
+  artifactKey: Guid(e7c2e1d659f684e82bb79a23372d5bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene/HomemadeApple-Regular SDF.asset using Guid(e7c2e1d659f684e82bb79a23372d5bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8ecd0c54efbf75053c12158fa92a19') in 0.024407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.373074 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene/LibreBaskerville-Regular.ttf
+  artifactKey: Guid(f17b7a5ee29a04f99ac409b56b3895ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene/LibreBaskerville-Regular.ttf using Guid(f17b7a5ee29a04f99ac409b56b3895ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff1f5426fe07c96123df8c9348ff9e2') in 0.009586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.717404 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene/HomemadeApple-Regular SDF.asset
+  artifactKey: Guid(e7c2e1d659f684e82bb79a23372d5bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene/HomemadeApple-Regular SDF.asset using Guid(e7c2e1d659f684e82bb79a23372d5bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb243b8955919b39ccd5f2e2214244f') in 0.027412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 157.146405 seconds.
+  path: Assets/RootVegetables
+  artifactKey: Guid(1ff5308bba65f5442902c02776c818ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RootVegetables using Guid(1ff5308bba65f5442902c02776c818ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c47a7cac1fd6bf405591477925cda0b') in 0.001649 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001338 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x289f6b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/DATANG/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/DATANG/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.733 seconds
+Domain Reload Profiling:
+	ReloadAssembly (733ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (535ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (210ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.5 KB). Loaded Objects now: 3912.
+Memory consumption went from 272.1 MB to 272.0 MB.
+Total: 2.538458 ms (FindLiveObjects: 0.164417 ms CreateObjectMapping: 0.065833 ms MarkObjects: 2.214291 ms  DeleteObjects: 0.092708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 178.633633 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(6616a7d7d6a934b43a9ea250392dad51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(6616a7d7d6a934b43a9ea250392dad51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2ff43401b9588dd03adcd519d9f05b') in 0.033561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.926197 seconds.
+  path: Assets/Scripts/CountDownManager.cs
+  artifactKey: Guid(91722e1a28e9143bc866a1a21cfe85bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CountDownManager.cs using Guid(91722e1a28e9143bc866a1a21cfe85bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77aec4494b50dd84c5808d0d76f8d7d') in 0.127183 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001289 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16d00b000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/DATANG/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/DATANG/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.678 seconds
+Domain Reload Profiling:
+	ReloadAssembly (678ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (496ms)
+			LoadAssemblies (46ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (204ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (190ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.3 KB). Loaded Objects now: 3916.
+Memory consumption went from 276.4 MB to 276.4 MB.
+Total: 2.280625 ms (FindLiveObjects: 0.126875 ms CreateObjectMapping: 0.047125 ms MarkObjects: 2.048542 ms  DeleteObjects: 0.057208 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001586 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16cf7f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/DATANG/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/DATANG/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.666 seconds
+Domain Reload Profiling:
+	ReloadAssembly (667ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (495ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (195ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.4 KB). Loaded Objects now: 3919.
+Memory consumption went from 276.7 MB to 276.6 MB.
+Total: 2.259958 ms (FindLiveObjects: 0.135541 ms CreateObjectMapping: 0.041042 ms MarkObjects: 2.012667 ms  DeleteObjects: 0.070000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001246 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16cf7f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/DATANG/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/DATANG/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.682 seconds
+Domain Reload Profiling:
+	ReloadAssembly (683ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (491ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (187ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.4 KB). Loaded Objects now: 3922.
+Memory consumption went from 276.9 MB to 276.8 MB.
+Total: 2.281542 ms (FindLiveObjects: 0.161791 ms CreateObjectMapping: 0.049167 ms MarkObjects: 2.008417 ms  DeleteObjects: 0.061500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
