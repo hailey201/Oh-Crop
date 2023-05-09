@@ -6,12 +6,15 @@ public class SpawnManager : MonoBehaviour
 {
     public GameObject cropPrefab;
     public GameObject coinPrefab;
-    public float spawnRange = 4;
+    public GameObject daikonPrefab;
+    public float spawnRange = 5;
+    
     // Start is called before the first frame update
     void Start()
     {
         Instantiate(cropPrefab, GenerateSpawnPosition(), cropPrefab.transform.rotation);
         Instantiate(coinPrefab, GenerateSpawnPosition(), coinPrefab.transform.rotation);
+        Instantiate(daikonPrefab, GenerateSpawnPosition(), daikonPrefab.transform.rotation);
     }
 
     // Update is called once per frame
@@ -29,4 +32,5 @@ public class SpawnManager : MonoBehaviour
 
         return randomPos;
     }
+
 }
