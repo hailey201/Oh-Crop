@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Robber
+  - Villager
+  - Raddish
+  - Daikon
+  - Beet
+  - Enemy
   layers:
   - Default
   - TransparentFX
