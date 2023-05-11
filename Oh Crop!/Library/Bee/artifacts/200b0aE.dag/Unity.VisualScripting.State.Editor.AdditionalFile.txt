@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /Users/HAAGUILAR1/Documents/GitHub/Oh-Crop-/Oh Crop!
 =======
 <<<<<<< HEAD
@@ -11,3 +12,6 @@
 /Users/VIWU1/Documents/GitHub/Oh-Crop/Oh Crop!
 >>>>>>> Player-movement
 >>>>>>> 6bcf823c55ad6db9b0eb038d80b21f694e1d30a1
+=======
+/Users/VIWU1/Documents/GitHub/Oh-Crop/Oh Crop!
+>>>>>>> ad5c7c6008bba8fad372acf7de2fd3eb07b19c50

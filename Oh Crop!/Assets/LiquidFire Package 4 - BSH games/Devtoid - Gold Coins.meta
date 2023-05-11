@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 789bf0083d57c49f1b54537fbed84590
+=======
+guid: 154f97e123ef54be6989273870e34739
+>>>>>>> spawning
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

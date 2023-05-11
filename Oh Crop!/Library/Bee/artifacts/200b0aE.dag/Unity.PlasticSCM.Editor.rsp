@@ -331,6 +331,7 @@
 -r:"/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
 <<<<<<< HEAD
+<<<<<<< HEAD
 -r:"/Users/HAAGUILAR1/Documents/GitHub/Oh-Crop-/Oh Crop!/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
 -r:"/Users/HAAGUILAR1/Documents/GitHub/Oh-Crop-/Oh Crop!/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/unityplastic.dll"
 -r:"/Users/HAAGUILAR1/Documents/GitHub/Oh-Crop-/Oh Crop!/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
@@ -351,6 +352,11 @@
 -r:"/Users/VIWU1/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 >>>>>>> Player-movement
 >>>>>>> 6bcf823c55ad6db9b0eb038d80b21f694e1d30a1
+=======
+-r:"/Users/VIWU1/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"/Users/VIWU1/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"/Users/VIWU1/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+>>>>>>> ad5c7c6008bba8fad372acf7de2fd3eb07b19c50
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.ref.dll"

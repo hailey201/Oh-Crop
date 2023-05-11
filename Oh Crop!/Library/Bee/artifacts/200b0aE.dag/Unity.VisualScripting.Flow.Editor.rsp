@@ -331,6 +331,7 @@
 -r:"/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
 <<<<<<< HEAD
+<<<<<<< HEAD
 -r:"/Users/HAAGUILAR1/Documents/GitHub/Oh-Crop-/Oh Crop!/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/log4netPlastic.dll"
 -r:"/Users/HAAGUILAR1/Documents/GitHub/Oh-Crop-/Oh Crop!/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
 -r:"/Users/HAAGUILAR1/Documents/GitHub/Oh-Crop-/Oh Crop!/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
@@ -359,6 +360,8 @@
 =======
 =======
 >>>>>>> Player-movement
+=======
+>>>>>>> ad5c7c6008bba8fad372acf7de2fd3eb07b19c50
 -r:"/Users/VIWU1/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/log4netPlastic.dll"
 -r:"/Users/VIWU1/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
 -r:"/Users/VIWU1/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
@@ -371,10 +374,13 @@
 -r:"/Users/VIWU1/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
 -r:"/Users/VIWU1/Documents/GitHub/Oh-Crop/Oh Crop!/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Stashed changes
 =======
 >>>>>>> Player-movement
 >>>>>>> 6bcf823c55ad6db9b0eb038d80b21f694e1d30a1
+=======
+>>>>>>> ad5c7c6008bba8fad372acf7de2fd3eb07b19c50
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Flow.ref.dll"
