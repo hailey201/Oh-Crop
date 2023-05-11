@@ -90,4 +90,16 @@ Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_12689B593F2478D5.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_28C82C4452584691.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_45275E5DC85EC633.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEditor.OSXStandalone.Extensions.dll_E43B9C6A5E2A559E.mvfrm
+<<<<<<< HEAD
 Library/Bee/artifacts/mvdfrm/Unity.Plastic.Newtonsoft.Json.dll_5581738016B16C55.mvfrm
+=======
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+Library/Bee/artifacts/mvdfrm/Unity.Plastic.Newtonsoft.Json.dll_935AEABAD9E81C36.mvfrm
+=======
+Library/Bee/artifacts/mvdfrm/Unity.Plastic.Newtonsoft.Json.dll_AE41EB404A162E5D.mvfrm
+>>>>>>> Stashed changes
+=======
+Library/Bee/artifacts/mvdfrm/Unity.Plastic.Newtonsoft.Json.dll_AE41EB404A162E5D.mvfrm
+>>>>>>> Player-movement
+>>>>>>> 6bcf823c55ad6db9b0eb038d80b21f694e1d30a1

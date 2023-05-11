@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 /Users/HAAGUILAR1/Documents/GitHub/Oh-Crop-/Oh Crop!
+=======
+/Users/VIWU1/Documents/GitHub/Oh-Crop/Oh Crop!
+>>>>>>> 6bcf823c55ad6db9b0eb038d80b21f694e1d30a1
