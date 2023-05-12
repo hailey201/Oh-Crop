@@ -4,33 +4,24 @@ using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
-    public GameObject cropPrefab;
-    public GameObject coinPrefab;
-    public GameObject daikonPrefab;
-    public float spawnRange = 5;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        Instantiate(cropPrefab, GenerateSpawnPosition(), cropPrefab.transform.rotation);
-        Instantiate(coinPrefab, GenerateSpawnPosition(), coinPrefab.transform.rotation);
-        Instantiate(daikonPrefab, GenerateSpawnPosition(), daikonPrefab.transform.rotation);
-    }
+    public GameObject[] powerupPrefabs;
+   
 
-    // Update is called once per frame
-    void Update()
+
+    void Start()
     {
         
     }
 
-    private Vector3 GenerateSpawnPosition()
+    void Update()
     {
-        float spawnPosX = Random.Range(-spawnRange, spawnRange);
-        float spawnPosZ = Random.Range(-spawnRange, spawnRange);
+        if(Input.GetKeyDown(KeyCode.Q))
+        {
+            int powerupIndex = Random.Range(0,4);
 
-        Vector3 randomPos = new Vector3(spawnPosX, 0, spawnPosZ);
-
-        return randomPos;
+            Instantiate(powerupPrefabs[powerupIndex], new Vector3(0,0,20), powerupPrefabs[powerupIndex].transform.rotation);
+        }
     }
 
 }
+   

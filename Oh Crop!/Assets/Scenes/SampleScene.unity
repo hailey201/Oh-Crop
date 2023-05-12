@@ -282,10 +282,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 215c4b8dcfdd3465e8088f56b9f0fb86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cropPrefab: {fileID: 1616580530717364, guid: 081319ef3e436a44295662d8fa47dd02, type: 3}
-  coinPrefab: {fileID: 1950871307682000, guid: 01348926c7cbb3347a006c37204131c3, type: 3}
-  daikonPrefab: {fileID: 1433311697090166, guid: 0158a6863370c3d469ddee8e331810db, type: 3}
-  spawnRange: 5
+  powerupPrefabs:
+  - {fileID: 1417023371781118, guid: d65c5544ceb166e42ba2c0035400520e, type: 3}
+  - {fileID: 1689550908862522, guid: 08c182a6483a597499161973f90fe2be, type: 3}
+  - {fileID: 1223911998612176, guid: 6fc44b62ecda2994bb8b0d569c79b09d, type: 3}
+  - {fileID: 1433311697090166, guid: 0158a6863370c3d469ddee8e331810db, type: 3}
 --- !u!4 &701223478
 Transform:
   m_ObjectHideFlags: 0
@@ -450,8 +451,8 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 777178664}
-  m_Material: {fileID: 13400000, guid: b3cb0b3904ae4450eb40c13b6468cda2, type: 2}
-  m_IsTrigger: 0
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.6437325
   m_Height: 2.2394547
@@ -568,7 +569,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1463997046}
   m_Material: {fileID: 13400000, guid: b3cb0b3904ae4450eb40c13b6468cda2, type: 2}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.62138075
   m_Height: 2.4208097
@@ -601,22 +602,22 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
---- !u!64 &1463997054
-MeshCollider:
+--- !u!114 &1463997052
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1463997046}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aab24aa6cf3c4231ae6d91b8603de97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  hasPowerup: 0
 --- !u!1001 &1571187331
 PrefabInstance:
   m_ObjectHideFlags: 0
