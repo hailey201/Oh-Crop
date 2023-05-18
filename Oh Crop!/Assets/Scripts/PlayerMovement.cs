@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public float verticalInput;
     public float speed = 10;
     public float horizontalInput;
-    public float verticalInput;
     // Start is called before the first frame update
     void Start()
     {
