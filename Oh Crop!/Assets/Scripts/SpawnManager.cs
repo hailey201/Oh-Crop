@@ -5,8 +5,8 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
 public GameObject[ ] powerupPrefabs; 
-   private float spawnRangeX = 100; 
-   private float spawnRangeZ = 100;
+   private float spawnRangeX = 500; 
+   private float spawnRangeZ = 500;
    private float startDelay = 1;
    private float spawnInterval = 1.5f;
 
